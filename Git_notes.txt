@@ -1,0 +1,61 @@
+product Life_cycle
+        |____________> : Developer (Sharp minded)
+        |____________> : Testing (Freshers)
+        |____________> : Deployment/integration (Managers: Experienced)
+
+
+if bugs are found: Deployment,Testing > Developers
+
+# how to connect local repository to remote repository:
+        step 1: first change the branch from main to master on gitHub, by going to settings>repository>change main to master
+        step 2: git clone URL
+
+# how to add files to git tracking
+        1. git add -A
+        2. git add .
+        3. git add <FileName>
+        4. git add <FileName><FileName>
+        5. git add *
+
+# how to check status of git staging area
+        -> git status
+
+# how to remove files from git staging are
+
+# how to commit
+        -> git commit -m "Message to this commit"
+
+# how to config git for username and email
+        -> git config user.email "Email"
+        -> git config user.username "username"
+
+# how to config git for username and email for git repository
+        -> git config --global user.email "Email"
+        -> git config --global user.username "username"
+
+# how to push to remote branch
+-> git push -u origin {branch_name}
+        username: gitHub_username
+        password: repository_token
+
+# how to remove the files from staging area
+        -> git reset
+
+# how to initialize a git repo
+        -> git init
+
+# how to remove the file from tracking area, we can remove the file from cached area 
+        -> git rm --cached f1.py
+
+# git is crucial for DevOps 
+
+# how to check changes in file
+-> git log
+
+-> git commit -m "f1 modified and f2 added"
+
+# how to rollback to previous git changes
+-> git revert [commit_id]
+
+# restore vs revert
+-> 
